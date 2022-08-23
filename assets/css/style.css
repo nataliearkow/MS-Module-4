@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    background-color: #FFC6FC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';font-size: 22px;
+    background-color: #FFC6FC;
+}
+
+header {
+    display: flex; /* Flex container to display the child elements as flex with space between and wrap */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    color: #FE3D79;
+    height: 60px;
+    font-size: 2vw;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Lato';font-size: 22px;
+  }
+
+.btnHeader {
+    border-radius: 4px;
+    background-color: #FE3D79;
+    text-decoration: none;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    color: white;
+    font-family: 'Lato';font-size: 20px;
+}
+
+.btnHeader:hover {
+
+    background-color: pink;
+    
+}
+
+.btn {
+    border-radius: 12px;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    color: white;
+    font-family: 'Lato';font-size: 10px;
+    background: linear-gradient(90deg, #FE3D79 0%, #FE3D79 100%);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #E6379E;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#mainDiv {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Lato';font-size: 22px;
+}
+
+
+
+
+#gridContainer {
+   /* width:65%; /* Contain the grid to a maximum of 80% of the flex wrapper */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr 1fr;  /* Create a 4X4 grid of same size*/
+    grid-template-rows: repeat(10, 1fr); /* 4 rows of equal size */
+    gap: 10px 10px; /* Gap on x and y grid */
+    font-family: 'Lato';font-size: 22px;
+}
+
+
+#questionDisplay {
+    text-align: center;
+    align-self: baseline;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 5;
+    place-self: center;
+    font-size: 30px;
+}
+
+#finalScoreDisplay {
+    
+    grid-column: 1 / span 2;
+    grid-row: 6 / span 1;
+    font-size: 15px;
+}
+
+
+#enterInitials {
+    
+    grid-column: 1 / span 1;
+    grid-row: 7 / span 1;
+    font-size: 15px;
+}
+
+
+#enterInitialsTextArea {
+    
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 1;
+    font-size: 15px;
+    resize: none;
+    
+}
+
+#submitScore {
+    grid-column: 3 / span 1;
+    grid-row: 7 / span 1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    background-color: #FE3D79;
+    color: white;
+    font-family: 'Lato';font-size: 15px;
+}
+
+#start-quiz {
+    grid-column: 2 / span 2;
+    grid-row: 5 / span 1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    background-color: #FE3D79;
+    place-self: center;
+    color: white;
+    font-family: 'Lato';font-size: 15px;
+}
+
+#answer1 {
+    grid-column: 1 / span 2;
+    grid-row: 6 / span 1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    background-color: #FE3D79;
+    color: white;
+    font-family: 'Lato';font-size: 15px;
+    margin-left: 25px;
+}
+
+#answer2 {
+    grid-column: 1 / span 2;
+    grid-row: 7 / span 1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    background-color: #FE3D79;
+    color: white;
+    font-family: 'Lato';font-size: 15px;
+    margin-left: 25px;
+
+}
+
+#answer3 {
+    grid-column: 1 / span 2;
+    grid-row: 8 / span 1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    background-color: #FE3D79;
+    color: white;
+    font-family: 'Lato';font-size: 15px;
+    margin-left: 25px;
+}
+
+#answer4 {
+    grid-column: 1 / span 2;
+    grid-row: 9 / span 1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    background-color: #FE3D79;
+    color: white;
+    font-family: 'Lato';font-size: 15px;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+#answer1:hover{
+    
+    background-color: pink;
+     
+}
+
+#answer2:hover{
+    
+    background-color: pink;
+  
+}
+
+#answer3:hover{
+    
+    background-color: pink;
+  
+}
+
+#answer4:hover{
+    
+    background-color: pink;
+  
+}
+
+#submitScore:hover{
+    
+    background-color: pink;
+  
+}
+
+
+
+#answerCorrectWrongGrid {
+    /*width:65%; /* Contain the grid to a maximum of 80% of the flex wrapper */
+    display: grid;
+    grid-template-columns: 4fr;  /* Create a 4X4 grid of same size*/
+    grid-template-rows: repeat(2, 1fr); /* 4 rows of equal size */
+    gap: 10px 10px; /* Gap on x and y grid */
+    font-family: 'Lato';font-size: 22px;
+
+}
+
+#answerCorrectWrong {
+    text-align: left;
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+    
+}
+
+
+/* This will be applied on any screen smaller than 768px */
+@media screen and (max-width: 768px) {
+
+
+    
+    #answer1:hover{
+        
+        background-color: #FE3D79;
+        
+    }
+
+    #answer2:hover{
+        
+        background-color: #FE3D79;
+    
+    }
+
+    #answer3:hover{
+        
+        background-color: #FE3D79;
+    
+    }
+
+    #answer4:hover{
+        
+        background-color: #FE3D79;
+    
+    }
+
+    #submitScore:hover{
+        
+        background-color: #FE3D79;
+    
+    }
+
+
+    #questionDisplay {
+        font-size: 25px;
+    }
+    
+    #answer1 {
+        grid-column: 2 / span 2;
+    }
+    
+    #answer2 {
+        grid-column: 2 / span 2;
+           
+    }
+    
+    #answer3 {
+        grid-column: 2 / span 2;
+    }
+    
+    #answer4 {
+        grid-column: 2 / span 2;
+    }
+    
+  
+
+}
+
+
+   /* This will be applied on any screen smaller than 575px */
+@media screen and  (max-width: 575px) {
+
+    #answer1:hover{
+        
+        background-color: #FE3D79;
+        
+    }
+
+    #answer2:hover{
+        
+        background-color: #FE3D79;
+    
+    }
+
+    #answer3:hover{
+        
+        background-color: #FE3D79;
+    
+    }
+
+    #answer4:hover{
+        
+        background-color: #FE3D79;
+    
+    }
+
+    #submitScore:hover{
+        
+        background-color: #FE3D79;
+    
+    }
+
+
+    #mainDiv {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #questionDisplay {
+        grid-column: 2 / span 2;
+        font-size: 15px;
+    }
+  
+
+  }
