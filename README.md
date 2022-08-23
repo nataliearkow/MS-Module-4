@@ -27,11 +27,13 @@
 - If user does not answer questions, the game ends when time runs out
 
 # Photo
-<img width="1431" alt="Screen Shot 2022-08-23 at 9 33 35 AM" src="https://user-images.githubusercontent.com/109115351/186172531-fd0c70dd-a30f-432b-be3c-d8639937d0c9.png">
-<img width="1029" alt="Screen Shot 2022-08-23 at 9 34 09 AM" src="https://user-images.githubusercontent.com/109115351/186172545-a8104a8b-00e4-4189-bee2-1691b796888e<img width="1035" alt="Screen Shot 2022-08-23 at 9 35 10 AM" src="https://user-images.githubusercontent.com/109115351/186172571-7afc456f-1290-4a31-853b-a0160a9f341d.png">
-.png">
-<img width="1236" alt="Screen Shot 2022-08-23 at 9 36 31 AM" src="https://user-images.githubusercontent.com/109115351/186172583-1fc9410f-bc07-4a29-9c69-3f9fe1b20b3d.png">
+<img width="1431" alt="Screen Shot 2022-08-23 at 9 33 35 AM" src="https://user-images.githubusercontent.com/109115351/186173819-06e680b7-6fa1-463f-a9f5-8d93cd893ec7.png">
 
+<img width="1029" alt="Screen Shot 2022-08-23 at 9 34 09 AM" src="https://user-images.githubusercontent.com/109115351/186173836-31f5c300-d91b-4edd-a8b8-a5c423ed8ccb.png">
+
+<img width="1035" alt="Screen Shot 2022-08-23 at 9 35 10 AM" src="https://user-images.githubusercontent.com/109115351/186173857-538788e7-a98f-47a4-b875-075ca5f8a006.png">
+
+<img width="1236" alt="Screen Shot 2022-08-23 at 9 36 31 AM" src="https://user-images.githubusercontent.com/109115351/186173877-dd6a3f7f-8f8b-4c91-9373-4cc0cbacf3b0.png">
 
 # Link to Quiz
 https://nataliearkow.github.io/MS-Module-4/
